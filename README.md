@@ -11,6 +11,21 @@
 ### Check the file tree in the update directory
 		$ cd update/
 		$ tree
+
+		.
+		├── Image
+		│   ├── boot.img
+		│   ├── MiniLoaderAll.bin
+		│   ├── misc.img
+		│   ├── oem.img
+		│   ├── parameter.txt
+		│   ├── recovery.img
+		│   ├── rootfs.img
+		│   ├── uboot.img
+		│   └── userdata.img
+		├── package-file
+		└── parameter
+
 	
 ### emmc partiton:
 	to change the emmc partition by using Image/parameter.txt.
