@@ -3,7 +3,7 @@
 ##1)Unpacking Rockchip Firmware:
 
 ##step:1) Unpacking release_update.img
-		`$ img_unpack update.img img`.
+	##	`$ img_unpack update.img img`.
 
 ##step:2) unpacking update.img
 		`$ cd img`.
