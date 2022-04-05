@@ -1,6 +1,6 @@
 ## Flashing procedure for RV1109 Relfor
 
-##1)Unpacking Rockchip Firmware:
+### Unpacking Rockchip Firmware:
 
 	1. Unpacking release_update.img
 		`$ img_unpack update.img img`.
