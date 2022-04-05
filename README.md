@@ -3,7 +3,8 @@
 ### Unpacking Rockchip Firmware:
 
 	1. Unpacking release_update.img
-		$ img_unpack update.img img
+		$ img_unpack release_update.img img
+	2. It contains the bootloader `loader.img` and the real firmware data `update.img`	
 
 ### unpacking update.img
 		$ cd img
