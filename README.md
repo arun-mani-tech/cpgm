@@ -2,13 +2,13 @@
 
 ##1)Unpacking Rockchip Firmware:
 
-###step:1) Unpacking release_update.img
+##step:1) Unpacking release_update.img
 		`$ img_unpack update.img img`
 
-###step:2) unpacking update.img
+##step:2) unpacking update.img
 		$ cd img
 		`$ ./linux/Linux_Pack_Firmware/rockdev/afptool -unpack update.img update`
-###step:3) Check the file tree in the update directory
+##step:3) Check the file tree in the update directory
 		`$ cd update/`
 		`$ tree`
 	```	.
