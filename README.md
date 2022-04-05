@@ -1,4 +1,4 @@
-# Flashing procedure for RV1109 Relfor
+## Flashing procedure for RV1109 Relfor
 
 ##1)Unpacking Rockchip Firmware:
 
@@ -11,20 +11,7 @@
 ##step:3) Check the file tree in the update directory
 		`$ cd update/`.
 		`$ tree`.
-	```	.
-		├── Image.
-		│   ├── boot.img.
-		│   ├── kernel.img.
-		│   ├── MiniLoaderAll.bin.
-		│   ├── misc.img.
-		│   ├── parameter.txt.
-		│   ├── recovery.img.
-		│   ├── resource.img.
-		│   ├── trust.img.
-		│   └── uboot.img.
-		├── package-file.
-		└── RESERVED.
-	```
+	
 ##2)emmc partiton:
 	to change the emmc partition by using Image/parameter.txt.
 	And copy the parameter file to parameter.
